@@ -1,13 +1,17 @@
 CREATE DATABASE IF NOT EXISTS ads_board;
 
 CREATE TABLE users (
-	id bigserial NOT NULL,
+	id bigserial NOT NULL UNIQUE,
 	username varchar(100) NOT NULL UNIQUE,
 	password varchar(64) NOT NULL,
 	email integer(100) NOT NULL UNIQUE,
 	enabled BOOLEAN NOT NULL,
 	CONSTRAINT users_pk PRIMARY KEY (id)
 );
+
+
+
+
 
 
 
