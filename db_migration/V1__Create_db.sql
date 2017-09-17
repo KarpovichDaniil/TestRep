@@ -1,5 +1,7 @@
 
 
+
+
 CREATE DATABASE IF NOT EXISTS ads_board;
 
 CREATE TABLE users (
