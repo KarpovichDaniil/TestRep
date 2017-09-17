@@ -19,4 +19,7 @@ public class ProgCommRun {
 		companyService.findAll().forEach((CompanyEntity company) -> System.out.println(company.company_name));
 		context.close();
 	}
+
+
+
 }
